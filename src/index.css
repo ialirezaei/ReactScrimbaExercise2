@@ -1,4 +1,66 @@
-nav {
-  background-color: aqua;
+@import url('https://v1.fontapi.ir/css/Shabnam');
 
+* {
+font-family: 'Shabnam',sans-serif;
+}
+body{
+  margin: 0;
+}
+nav {
+  background-color: #F55A5A;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+nav>img{
+  width: 30px;
+  height: 30px;
+  padding: 1%;
+}
+nav>h2{
+    font-weight: 100 !important;
+}
+.card{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.137);
+  padding: 2%;
+  margin: 2%;
+}
+.card-image{
+  width: 40%;
+
+}
+.card-image img{
+  width: 100%;
+  height: auto;
+}
+.card-content{
+  padding: 3%;
+  width: 70%;
+  display: flex;
+  justify-content: end;
+  flex-direction: column;
+  color: rgb(0, 0, 0);
+  padding: 2%;
+  margin: 2%;
+  border-radius: 5px;
+  height: 100%;
+  font-size: 14px;
+}
+.card-location{
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  flex-direction: row;
+  color: rgb(0, 0, 0);
+  width: 60%;
+  padding: 2%;
+  margin: 2%;
+  border-radius: 5px;
 }
