@@ -1,5 +1,4 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
 
 export default class Cards extends React.PureComponent {
     render() {
@@ -10,7 +9,7 @@ export default class Cards extends React.PureComponent {
                 </div>
                 <div className="card-content">
                     <div className="card-location">
-                        <img src="./img/Fill 219.png"></img>
+                        <img src="./img/Fill 219.png" alt=""></img>
                         <p>ایران خاک دلیران</p>
                         <p>مشاهده در نقشه</p>
                     </div>
